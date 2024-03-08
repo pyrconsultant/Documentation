@@ -1,0 +1,25 @@
+Instance par défaut : MSSQLSERVER
+Utilisateurs :
+Pierre-Yves
+peter
+lodj
+
+MDP standard PY
+
+Nom de l'Ordinateur : DESKTOP-L4KCR01
+
+Ajouter Identity
+https://dotnet.developpez.com/actu/307454/IdentityServer4-utiliser-ASP-NET-Core-Identity-pour-l-authentification-un-billet-de-blog-d-Hinault-Romaric/
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-L4KCR01;Database=MVC03;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
